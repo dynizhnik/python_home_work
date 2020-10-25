@@ -1,0 +1,9 @@
+price = float(input('Input price: '))
+federation_tax = price * 0.05
+regions_tax = price * 0.025
+total_tax = federation_tax + regions_tax
+total_price = price + total_tax
+print('Federation tax is:', format(federation_tax, '.2f'))
+print('Regions tax is:', format(regions_tax, '.2f'))
+print('Totol tax is:', format(total_tax, '.2f'))
+print('Total price is:', format(total_price, '.2f'))
