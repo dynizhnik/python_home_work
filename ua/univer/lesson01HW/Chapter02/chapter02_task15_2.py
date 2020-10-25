@@ -1,0 +1,16 @@
+import turtle
+turtle.hideturtle()
+turtle.penup()
+turtle.goto(-150,0)
+turtle.pendown()
+turtle.goto(150,0)
+turtle.goto(0,350)
+turtle.goto(-150,0)
+turtle.fillcolor('gray')
+turtle.begin_fill()
+turtle.goto(0,120)
+turtle.goto(150,0)
+turtle.goto(-150,0)
+turtle.end_fill()
+turtle.done()
+
